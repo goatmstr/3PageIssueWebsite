@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #d3d3d3;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.Logo {
+  display: inline;
+  color: white;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#NBALogo {
+  max-height: auto;
+  max-width: 4%;
+}
+
+#button1 {
+  background-color: #00438c;
+  display: inline-block;
+  color: white;
+  margin-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#button2 {
+  background-color: #da1a32;
+  display: inline-block;
+  color: white;
+  margin-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#button3 {
+  background-color: #00438c;
+  display: inline-block;
+  color: white;
+  margin-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#coach {
+  max-width: 50%;
+  max-height: auto;
+  margin-bottom: 25px;
+}
+
+.quote-background {
+  background-color: #da1a32;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 30px;
+}
+
+#quote {
+  display: inline;
+  line-height: 1.5;
+}
+
+h2 {
+  display: inline;
+  color: #00438c;
+}
+
+.exampleBox {
+  display: inline-block;
+  width: 45%;
+  height: auto;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
