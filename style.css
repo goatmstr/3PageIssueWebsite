@@ -4,12 +4,16 @@
 }
 
 body {
-  background-color: #d3d3d3;
+  background-color: #2a2a2a;
 }
 
 a {
   color: white;
   text-decoration: none;
+}
+
+a:hover {
+  font-style: italic;
 }
 
 .Logo {
@@ -26,7 +30,7 @@ a {
   max-width: 4%;
 }
 
-#button1 {
+.blueButton {
   background-color: #00438c;
   display: inline-block;
   color: white;
@@ -35,43 +39,50 @@ a {
   padding-right: 10px;
 }
 
-#button2 {
+.redButton {
   background-color: #da1a32;
   display: inline-block;
   color: white;
   margin-right: 15px;
   padding-left: 10px;
   padding-right: 10px;
+  font-weight: bold;
 }
 
-#button3 {
-  background-color: #00438c;
-  display: inline-block;
-  color: white;
-  margin-right: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#coach {
-  max-width: 50%;
+.mainImage {
+  max-width: 500px;
   max-height: auto;
   margin-bottom: 25px;
 }
 
-.quote-background {
+.red-text-box {
   background-color: #da1a32;
   color: white;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   padding-left: 50px;
   padding-right: 50px;
   border-radius: 30px;
 }
 
-#quote {
+.blue-text-box {
+  background-color: #00438c;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 30px;
+}
+
+.text {
   display: inline;
   line-height: 1.5;
+  color: white;
+}
+
+h1 {
+  color: white;
 }
 
 h2 {
